@@ -1,0 +1,43 @@
+{
+  "populations": [
+    {
+      "population_id": "adults-cn",
+      "label": "中国成年居民",
+      "description": "18 岁及以上常住居民"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "q-concern",
+      "version": 1,
+      "topic": "international-cooperation",
+      "label": "最关心的议题",
+      "wording": "未来一年您最关心的议题是？",
+      "response_scale": "多选，选填三项",
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-11-30",
+      "population_ids": ["adults-cn"]
+    },
+    {
+      "question_id": "q-concern",
+      "version": 2,
+      "topic": "international-cooperation",
+      "label": "最关心的议题（量表版）",
+      "wording": "请对下列议题的关心程度打分（1-5）",
+      "response_scale": "1-5 李克特量表",
+      "valid_from": "2026-12-01",
+      "valid_to": null,
+      "population_ids": ["adults-cn"]
+    }
+  ],
+  "topics": [
+    {
+      "topic": "international-cooperation",
+      "version": 1,
+      "label": "国际合作",
+      "coding_rules": "提及外交、国际组织与双边合作的报道归入本主题",
+      "valid_from": "2026-01-01",
+      "valid_to": null
+    }
+  ]
+}

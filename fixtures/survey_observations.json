@@ -1,0 +1,26 @@
+[
+  {
+    "observation_id": "s-1",
+    "question_id": "q-concern",
+    "question_version": 1,
+    "population_id": "adults-cn",
+    "observed_on": "2026-11-01",
+    "topic": "international-cooperation",
+    "valid_responses": 800,
+    "value": 0.42,
+    "status": "valid",
+    "region": "global"
+  },
+  {
+    "observation_id": "s-2",
+    "question_id": "q-concern",
+    "question_version": 1,
+    "population_id": "adults-cn",
+    "observed_on": "2026-12-01",
+    "topic": "international-cooperation",
+    "valid_responses": 0,
+    "value": null,
+    "status": "no_valid_responses",
+    "region": "global"
+  }
+]
